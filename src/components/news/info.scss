@@ -1,0 +1,22 @@
+.info {
+    border-radius: 15px;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.return {
+    background-color: rgba(0, 0, 0, 0.712);
+    color: white;
+    padding: 10px;
+    border-radius: 15px;
+    text-transform: capitalize
+}
+
+.active {
+    transform: scale(1.2);
+    position: relative;
+    z-index: 3;
+}
